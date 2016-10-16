@@ -1,0 +1,571 @@
+
+body{
+      background-color: black;
+       font-family: "trajan-pro-3";
+      letter-spacing: 2px;
+      overflow-x: hidden;
+      font-weight: 400;
+}
+.fa{
+    color: white;
+}
+h1, h2, h3, h4, h5, h6, a, p, li {
+      font-family: "trajan-pro-3";
+}
+a{
+      color: white;
+}
+a:hover{
+      color: white;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px black;
+}
+h2, h3{
+      color: white;
+}
+.pointer{
+      cursor: pointer;
+      color: white;
+}
+.pointer:hover{
+      text-shadow: 1px 1px 1px black;
+}
+div.moreCat{
+      padding: 0px 20px;
+}
+.Pointer{
+      cursor: pointer;
+}
+
+
+/*NAVIGATION*/
+div.navigation{
+      width: 100%;
+      position: fixed;
+      background-image: url(/InkBlock/img/navBack.png);
+      z-index: 666;
+} 
+li.navLink{
+      cursor: pointer;
+      text-align: center;
+      height: 100px;
+}
+img.Logo{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      margin-top: -5px;
+}
+p.shopDrop{
+      display: block;
+      color: white;
+}
+p.navLink{
+      font-size: 14.59px;
+}
+p.navLink, p.shopDrop{
+      top: 50%;
+      display: block;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      margin-top: -10px;
+}
+ul.dropDown{
+      background-image: url(/InkBlock/img/navBack.png);
+      width: 200px;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+}
+.navCaret{
+      margin: -2px 3px 0px 3px;
+      height: 9px;
+}
+li.shopLink{
+      padding: 5px 10px 5px 15px;
+      text-align: left;
+}
+li.shopLink:hover{
+      background-color:  #2F4D63;
+      background-blend-mode: multiply;
+}
+div.shoppingCart{
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      background-image: url(/InkBlock/img/cart.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      margin-top: -10px;
+}
+div.cartAmount{
+      background-color: #2F4D63;
+      width: 16px;
+      height: 16px;
+      border-radius: 8px;
+      position: absolute;
+      top: -8px;
+      right: -15px;
+      font-size: 10px;
+}
+p.cartAmount{
+      display: block;
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      margin-left: 1px;
+}
+
+/*OVERLAY*/
+div.overlay{
+      width: 100%;
+      height: 100%;
+      background-color: #2F4D63;
+      opacity: .5;
+      position: fixed;
+      z-index: 66;
+}
+.Overlay{
+      position: fixed;
+      pointer-events:none;
+      width: 100%;
+      z-index: 68886;
+}
+
+div.overlayBox{
+      position: absolute;
+      background-color: white;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      z-index: 67;
+      top: 50%;
+      pointer-events:all;
+      max-width: 80%;
+}
+div.info{
+      height: 100%;
+}
+
+div.close{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+}
+
+/*FILE UPLOAD*/
+div.signUp{
+      width: 100%;
+}
+
+input.emailInput{
+      width: 100%;
+      padding: 8px;
+      background-color: #2F4D63;
+      border: 0px solid black;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+}
+button.emailSubmit{
+      padding: 8px;
+      width: 100%;
+       background-color: #2F4D63;
+      border: 1px solid white;
+}
+@media only screen and (min-width: 769px) {
+      .ovSection{
+            height: 500px;
+      }
+}
+@media only screen and (max-width: 769px) {
+      .ovSection{
+            height: 350px;
+      }
+      .Info{
+            height: 420px;
+      }
+}
+.photo{
+      width: 100%;
+      max-width: 450px;
+      
+}
+.photoUpload{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+}
+h3.photoLabel{
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      font-size: 28px;
+      width: 100%;
+      margin: 0px;
+      line-height: 38px;
+}
+.dragPhoto{
+      position: relative;
+      max-height: 450px;
+      overflow: hidden;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.chooseFile{
+      padding: 15px;
+      text-align: center;
+}
+label.Control-label{
+      color: black;
+      padding: 5px;
+}
+.FormInput{
+      width: 100%;
+      border: 1px solid black;
+      color: black;
+      padding: 5px;
+      margin: 0px;
+}
+.Control-label{
+      text-align: right;
+}
+.Control-group{
+      margin: 15px;
+}
+.photoInfo{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      width: 80%;
+      
+}
+button.submitButton{
+      width: 50%;
+      color: black;
+      background-color: white;
+      padding: 5px;
+      box-shadow: 0px 0px 0px black;
+      border: 1px solid black;
+}
+button.submitButton:hover{
+      background-color: #2F4D63;
+      color: white;
+}
+
+/*MOBILE NAVIGATION*/
+div.navigation.mobile{
+      height: 70px;
+}
+.shoppingCartmobile{
+      width: 24px;
+      height: 24px;
+      background-image: url(/InkBlock/img/cart.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+}
+li.menuLink.cart{
+      height: 50px;
+}
+ul.mobileMenu{
+      background-image: url(/InkBlock/img/navBack.png);
+      position: absolute;
+      width: 100%;
+      top:70px;
+}
+li.menuLink{
+      padding:8px 28px;
+      color: white;
+      font-family: 
+}
+li.menuLink.shop{
+      padding-left: 58px;
+}
+button.menuButton{
+      background:none;
+      border: 0px solid black;
+      height: 30px;
+      width: 30px;
+      display: inline-block;
+      padding 5px;
+      margin-left: 10px;
+      top: 50%;
+      position: absolute;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform:translateY(-50%);
+}
+div.menuImage{
+      background-image: url(/InkBlock/img/menu.svg);
+      background-size:contain;
+      background-repeat: no-repeat;
+      height: 15px;
+      width:20px;
+}
+img.mobileLogo{
+      position: absolute;
+      height: 40px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform:translate(-50%, -50%);
+      display: inline-block;
+}
+/*CONTENT*/
+
+div.jumbotron.hero{
+      height: 850px;
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      background-color: black;
+      padding: 20px 0px;
+      margin-bottom: 10px;
+}
+
+.thou{
+      padding: 0px 10px;
+}
+div.imgTitle{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform:translateY(-50%);
+      width: 100%;
+      height: 112px;
+      
+}
+
+
+h2.imgTitle, h3.imgTitle{
+      font-family: "trajan-pro-3";
+      font-weight: 400;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform:translateY(-50%);
+      margin: 0px;
+      text-transform: uppercase;
+      padding: 20px;
+      background-color: transparent;
+       
+}
+h2.hiddenTitle, h3.hiddenTitle{
+      background-color: #2F4D63;
+      mix-blend-mode: multiply;
+     
+}
+h2.imgTitle{
+      font-size: 38px;
+}
+
+/*INFO BAR */
+div.infoBar{
+      text-align: center;
+      background-color: #2f4D63;
+      margin: 5px 0px;
+      padding: 10px 10%;
+      
+}
+h3.infoBar{
+      font-size: 20px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+      padding: 10px;
+      text-align: center;
+      margin: 0px;
+}
+
+div.more{
+      height: 70px;
+      text-align: center;
+      margin: 5px 0px;
+    background-color: black;
+}
+h3.more{
+      font-size: 20px;
+      border: 1px solid white;
+      position: absolute;
+      padding: 10px;
+      margin:15px 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+    cursor: pointer;
+}
+h3.more:hover{
+    background-color: #2f4d63;
+}
+
+
+div .halfImage, div.thirdImage{
+      height: 480px;
+     padding: 5px;
+}
+div.imageHalf, div.imageThird{
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+}
+
+div.fullImage{
+      height: 480px;
+       padding: 5px 0px;
+}
+
+      
+div.full{
+      padding: 0px;
+       height: 480px;
+      background-position: center;
+      background-size: cover;
+     
+}
+div.ofTheDay{
+      background-image: url(/InkBlock/img/ofTheDay.png);
+      
+}
+nav.pages{
+      margin: 5px;
+      height: 80px;
+      padding: 20px;
+}
+ul.pages{
+      left: 50%;
+      margin-left: -30px;
+      position: absolute;
+      transform: translateX(-50%);
+}
+li.pageNumber{
+      list-style: none;
+      display: inline;
+}
+a.pageNumber{
+      padding: 5px 16px;
+      background-color: #2F4D63;
+      display: inline-block;
+      font-size: 24px;
+}
+a.active.pageNumber{
+      background-color: white;
+      color: #2F4D63;
+}
+a.pageNumber.disabled{
+      color: grey;
+}
+
+/*FOOTER*/
+footer.social{
+      height: 200px;
+      background-color: #2f4D63;
+      margin-top: 10px;
+}
+h3.followUs{
+      position: absolute;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+      background-color: #2f4d63;
+}
+hr.footerHR{
+      position: absolute;
+      width: 100%;
+      margin-top:50px;
+}
+div.iconRow{
+      width: 100%;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+      
+}
+div.socialIcons{
+       left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+}
+@media only screen and (min-width: 769px) {
+      div.socialIcons{
+            max-width: 500px;
+                  margin-top: 100px;
+      }
+}
+@media only screen and (max-width: 769px) {
+      div.socialIcons{
+            width: 100%;
+            margin-top: 120px;
+      }
+}
+img.socialIcon{
+      max-width: 40px;
+      left: 50%;
+      position: absolute;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+      margin-left: 12px;
+}
+.glyphicon{
+      color: white;
+}
+*{
+      font-family: "trajan-pro-3";
+      font-weight: 400;
+    color: white;
+}
+.overlayBox{
+      width: 1000px;
+      height: 500px;
+      overflow-y: scroll;
+      overflow-x: hidden
+}

@@ -1,0 +1,26 @@
+div.description{
+    padding: 40px 80px;
+    text-align: center;
+    background-color: #2F4D63;
+    margin-bottom: 5px;
+}
+ 
+div.imgContainer{
+    padding: 5px;
+      height: 480px;
+}
+div.artistImage{
+    background-image: url("/InkBlock/img/artists/Los_Angeles/1/hero.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+height: 100%;
+    width: 100%;
+}
+div#imgContent{
+    padding: 0px 20px;
+}
+

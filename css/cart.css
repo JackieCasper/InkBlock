@@ -1,0 +1,171 @@
+
+div.cartItems{
+    padding: 5px 10px;
+}
+
+img.itemImage{
+    width: 100%;
+}
+div.itemInfoContainer{
+    display: inline-block;
+    height: 200px;
+}
+p.itemDescription{
+
+      max-width: 100%;
+}
+input, button{
+    background-color: black;
+    padding: 5px;
+    border: 1px solid white;
+}
+input.quantityInput{
+    width: 40px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+div.changeItem{
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 20px;
+}
+button.deleteItem{
+    padding: 5px 10px;
+}
+div.totalPrice{
+    margin-bottom: 100px;
+}
+p.priceTotal{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+    background-color: black;
+    padding: 20px;
+    margin-top: -50px;
+      text-align: center;
+}
+
+hr{
+    color: white;
+    width: 100%;
+}
+
+.formContainer{
+    max-width: 60%;
+}   
+
+.formHead{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+    margin-top: -40px;
+    padding: 10px 20px;
+}
+
+form.checkoutForm{
+    padding: 25px 0px;
+}
+.formRow{
+    
+    padding: 5px 15px 5px 5px;
+}
+
+ul.DropDown{
+    z-index: 44;
+    height: 200px;
+    overflow-y: scroll;
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+    border: 1px solid white;
+    background-color: black;
+    border-top: 0px solid black;
+}
+li.dropdownItem{
+    margin: 0px;
+    padding: 5px 10px;
+    background-color: black;
+    cursor: pointer;
+}
+li.dropdownItem:hover{
+    background-color: #2f4d63;
+}
+div.dropDown{
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+input.formInput{
+    width: 100%;
+}
+div.dropdownList{
+    position: absolute;
+    width: 100%;
+    z-index: 40;
+}
+div.listContainer{
+    padding-right: 30px;
+}
+div.dropDownBuffer{
+    position: fixed;
+    width: 100%;
+}
+label.control-label{
+    font-size: 12px;
+}
+li.selectedCountry, li.selectedState{
+    background-color: #2F4D63;
+}
+i.dropCaret{
+    position: absolute;
+    right: 25px;
+    top: 9px;
+}
+i.DropCaret{
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+p.SelectedCountry, p.SelectedState, p.SelectedYear, p.SelectedMonth{
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+}
+div.dropRow{
+    margin-bottom: 10px;
+}
+div.dateSection{
+    padding: 0px;
+}
+button.checkoutButton{
+    position: absolute;
+    right: 20%;
+    padding: 8px 12px;
+    margin-right: 15px;
+    margin-top: 30px;
+        
+}
+div.checkout{
+    height: 200px;
+}
+div.last{
+    margin-bottom: 80px;
+}
+div.first{
+    margin-top: 50px;
+}
+label{
+      text-transform: uppercase;
+}
+    

@@ -1,0 +1,33 @@
+
+div.row.overlayBox{
+      padding: 10px;
+      height: auto;
+}
+input#autocomplete{
+      color: #2F4D63;
+}
+input[type=text]:focus, textarea:focus{
+      outline-color:  #2F4D63;
+}
+td{
+      color: #2F4D63;
+}
+div.overlayBox{
+      z-index: 888888;
+}
+@media only screen and (min-width: 769px) {
+      div.overlayBox{
+            height: 500px;
+      
+      }
+      div.mapCol{
+            height: 500px;
+      }
+      
+}
+
+@media only screen and (max-width: 769px) {
+      div.mapCol, div.listingCol, div#listing{
+            height: 200px;
+      }
+}

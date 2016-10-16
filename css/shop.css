@@ -1,0 +1,164 @@
+
+img.overlayImage{
+      position: absolute;
+}
+div.overlaySection{
+      text-align: center;
+}
+
+
+h3.overlayTitle, h4.overlaySubtitle, h4.overlayPrice, p.overlayDescription, input.quantity, button.addToCart{
+    color: #2F4D63;
+}
+input.quantity{
+      border: 1px solid #2F4D63;
+      padding: 5px;
+      text-align: center;
+      margin: 15px;
+      width: 80px;
+}
+label.quantityLabel{
+      color: #2F4D63;
+}
+input.addToCart{
+      box-shadow: none;
+      background-color: white;
+      padding: 5px 10px;
+      text-align: center;
+      border: 1px solid #2F4D63;
+      margin: 15px;
+      color: #2F4D63;
+}
+input.addToCart:hover{
+      background-color: #2F4D63;
+      color: white;
+}
+div.jumbotron.hero.shop{
+      margin-bottom: 5px;
+}
+div.productRow{
+      margin: 0px 5px;
+}
+div.productContainer{
+      padding: 5px;
+      cursor: pointer;
+}
+img.productImage{
+      max-width: 100%;
+       
+}
+h4.productTitle{
+      color: white;
+      text-align: center;
+}
+p.productDescription{
+      color: white;
+      text-align: center;
+}
+div.productInfo{
+      margin: 30px 20px
+}
+h4.productTitle{
+      font-family: "trajan-pro-3";
+}
+
+
+img.product-image{
+      max-width: 100%;
+}
+h4.product-title, p.product-description{
+      color: white;
+      text-align: center;
+}
+p.product-description{
+       font-size: 12px;
+}
+div.product-info{
+      height: 125px;
+}
+div.product-container{
+     padding: 5px;
+}
+div.product-group{
+      padding: 0px; 
+}
+@media only screen and (min-width: 769px) {
+      div.product-group:nth-child(odd){
+            padding-left: 25px;
+      }
+      div.overlaySection{
+            height: 100%;
+      }
+      div.product-group:nth-child(even){
+            padding-right: 25px;
+      }
+
+      img.overlayImage{
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+      }
+      div.overlayProductInfo{
+            padding: 20px;
+    
+
+      }
+      
+}
+
+@media only screen and (max-width: 769px) {
+      div.product-group{
+            padding: 5px 25px;
+      }
+      div.overlayBox{
+            width: 100%;
+            margin: 0px;
+      }
+      div.overlaySection{
+            height: 200px;
+            margin: 0px;
+            padding: 0px;
+            left: 0px;
+
+      }
+      p.overlayDescription{
+            height: auto;
+            overflow:visible;
+            font-size: 10px;
+      }
+      h3.overlayTitle{
+            font-size: 16px;
+      }
+      h4.overlaySubtitle{
+            font-size: 12px;
+      }
+      h4.overlayPrice{
+            font-size: 12px;
+            color: #2F4D63;
+      }
+      input.quantity{
+            font-size: 12px;
+      }
+      input.addToCart{
+            font-size: 12px;
+      }
+      img.overlayImage{
+            left: 50%;
+            transform: translateX(-50%);
+             -webkit-transform: translateX(-50%);
+            -moz-transform:translateX(-50%);
+            height: 100%;
+            top: 0px;
+      }
+      div.overlayProductInfo{
+            height: 200px;
+
+      }
+      div#overlayImage{
+            overflow: hidden;
+      }
+}
+
+
+

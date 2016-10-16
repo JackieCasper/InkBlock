@@ -1,0 +1,12 @@
+div.imageContainer{
+      left: 50%;
+      transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+      -moz-transform:translateX(-50%);
+}
+img.contentImage{
+      width: 100%;
+}
+div.contentRow{
+      padding: 5px;
+}
